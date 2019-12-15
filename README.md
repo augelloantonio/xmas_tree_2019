@@ -9,10 +9,10 @@ The description of the challenge is as follow:
 
 ## My Solution
 
-I use Python to solve this challenge and I wanted to add some 'lights' to the tree (represented as *).
+I use Python to solve this challenge.
 
 
-![Solution](https://github.com/gello94/xmas_tree_2019/blob/master/result.png)
+![Solution](https://github.com/gello94/xmas_tree_2019/blob/master/result_no_star.png)
 
 My solution is based on a While Loop. I assigned different variables and made the characters I need to made the tree:
 
@@ -50,6 +50,15 @@ The basement will always be on the middle of the tree because it follows the siz
 
 **DO you want to change the size of the tree?**
 Just change the 'max' variable value.
+
+
+**Add some lights to the tree**
+If you want to add some lights to the tree (represented as *) just follow the comments in the code where the space ```' '``` need to be changed with ```'*'```.
+
+The result will be as follow:
+
+![Solution](https://github.com/gello94/xmas_tree_2019/blob/master/result.png)
+
 
 
 

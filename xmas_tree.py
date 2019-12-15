@@ -29,21 +29,25 @@ while i in range(max):
         print(starting_space + '|')
     # Get the first bar in the tree and add 'lights'
     if i < 4 and i % 3 == 0:
-        space = (((i+i)-3)*'*')
+        space = (((i+i)-3)*' ')
+        # to add lights comment the above space and uncomment the following
+        # space = (((i+i)-3)*'*')
         starting_space = ' '*(max - (i))
         i - 1
         print(starting_space + left_tree +
               bar + space + bar + right_tree)
     # Get all the remaining bar in the tree and add 'lights'
     if i > 3 and i % 3 == 0:
-        space = (((i+i)-3)*'*')
+        space = (((i+i)-3)*' ')
         starting_space = ' '*(max - (i))
         i - 1
         print(starting_space + left_tree +
               bar + space + bar + right_tree)
     # Prevent having double space in the second row
     if i == 1:
-        space = (((i+i)-1)*'*')
+        space = (((i+i)-1)*' ')
+        # to add lights comment the above space and uncomment the following
+        # space = (((i+i)-3)*'*')
         starting_space = ' '*(max - (i))
         i += 1
         print(starting_space + left_tree + space + right_tree)
@@ -57,7 +61,9 @@ while i in range(max):
 
 # Assign values and caracter for the bottom of the tree
 bar_vertical = '|'
-space_star = ((max*2)-1) * '*'
+space_star = ((max*2)-1) * ' '
+# to add lights comment the above space and uncomment the following
+# space_star = (((i+i)-3)*'*')
 full_line = ((max*2)-1) * '_'
 half_line = 10 * '_'
 left_side = (max-5) * ' '
