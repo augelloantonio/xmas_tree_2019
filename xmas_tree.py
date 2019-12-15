@@ -57,13 +57,9 @@ while i in range(max):
 
 # Assign values and caracter for the bottom of the tree
 bar_vertical = '|'
-single_space = ' '
 space_star = ((max*2)-1) * '*'
-space = ((max*2)-1) * ' '
 full_line = ((max*2)-1) * '_'
-
 half_line = 10 * '_'
-
 left_side = (max-5) * ' '
 
 # Print the bottom of the tree
