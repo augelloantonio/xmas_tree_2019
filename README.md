@@ -11,6 +11,9 @@ The description of the challenge is as follow:
 
 I use Python to solve this challenge and I wanted to add some 'lights' to the tree (represented as *).
 
+
+![Solution](https://github.com/gello94/xmas_tree_2019/blob/master/result.png)
+
 My solution is based on a While Loop. I assigned different variables and made the characters I need to made the tree:
 
 ```
